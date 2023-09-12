@@ -59,6 +59,9 @@
                     ".glsl",
                     ".vert",
                     ".vs",
+                    ".tesc",
+                    ".tese",
+                    ".geom",
                     ".frag",
                     ".fs"
                 ],
@@ -90,6 +93,13 @@
                 "path": "./syntaxes/ts-injected-glsl.language.json",
                 "injectTo": [
                     "source.ts"
+                ]
+            },
+            {
+                "scopeName": "source.md.injected.glsl",
+                "path": "./syntaxes/md-injected-glsl.language.json",
+                "injectTo": [
+                    "text.html.markdown"
                 ]
             }
         ],
