@@ -77,6 +77,18 @@ export class DocumentInfo {
             return Constants.FRAG;
         }
 
+        if (Constants.GEOMETRY_EXTS.includes(ext1) || Constants.GEOMETRY_EXTS.includes(ext2)) {
+            return Constants.GEOM;
+        }
+
+        if (Constants.TESS_EVALUATION_EXTS.includes(ext1) || Constants.TESS_EVALUATION_EXTS.includes(ext2)) {
+            return Constants.TESE;
+        }
+
+        if (Constants.TESS_CONTROL_EXTS.includes(ext1) || Constants.TESS_CONTROL_EXTS.includes(ext2)) {
+            return Constants.TESC;
+        }
+
         return Constants.EMPTY;
     }
 

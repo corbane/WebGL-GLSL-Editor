@@ -8,6 +8,22 @@ export class Constants {
     public static readonly VS = 'vs';
     public static readonly VERTEX_EXTS = [this.VERT_GLSL, this.VS_GLSL, this.VERT, this.VS];
 
+    public static readonly TESC_GLSL = 'tesc.glsl';
+    public static readonly TC_GLSL = 'tc.glsl';
+    public static readonly TESC = 'tesc';
+    public static readonly TESS_CONTROL_EXTS = [this.TESC_GLSL, this.TC_GLSL, this.TESC];
+
+    public static readonly TESE_GLSL = 'tese.glsl';
+    public static readonly TE_GLSL = 'te.glsl';
+    public static readonly TESE = 'tese';
+    public static readonly TESS_EVALUATION_EXTS = [this.TESE_GLSL, this.TE_GLSL, this.TESE];
+
+    public static readonly GEOM_GLSL = 'geom.glsl';
+    public static readonly GS_GLSL = 'gs.glsl';
+    public static readonly GEOM = 'geom';
+    public static readonly GS = 'gs';
+    public static readonly GEOMETRY_EXTS = [this.GEOM_GLSL, this.GS_GLSL, this.GEOM, this.GS];
+
     public static readonly FRAG_GLSL = 'frag.glsl';
     public static readonly FS_GLSL = 'fs.glsl';
     public static readonly FRAG = 'frag';
